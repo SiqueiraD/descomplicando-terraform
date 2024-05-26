@@ -1,7 +1,8 @@
+# https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 # Create a resource group
 resource "azurerm_resource_group" "example" {
   name     = "example-resources"
-  location = "West Europe"
+  location = "East US"
 }
 
 # Create a virtual network within the resource group
